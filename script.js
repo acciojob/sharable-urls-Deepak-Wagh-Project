@@ -6,6 +6,6 @@ const btn=document.getElementById("button");
 
 btn.addEventListener("click",()=>getData(name,year));
 function   getData(name,year) {
-	  text = url.innerText+"?"+name.value+year.value
+	  text = url.innerText+"?" +"name:"+name.value+"year:"+year.value
 	  url.innerText=text;
 }
