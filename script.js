@@ -13,18 +13,18 @@ function   getData(name,year) {
 		return;
 	}
 	if(year.value===""){
-		 text = "https://localhost:8080/?" +"name:"+name.value
+		 text = "https://localhost:8080/?" +"name="+name.value
 	  url.innerText=text;
 		return;
 	}
 	else if(name.value===""){
 
-	 text = "https://localhost:8080/?" +"year:"+year.value
+	 text = "https://localhost:8080/?" +"year="+year.value
 	  url.innerText=text;
 		return;
 	}
 	else{
-	 text = "https://localhost:8080/?" +"name:"+name.value+"&year:"+year.value
+	 text = "https://localhost:8080/?" +"name="+name.value+"&year="+year.value
 	  url.innerText=text;	
 		return;
 	}
