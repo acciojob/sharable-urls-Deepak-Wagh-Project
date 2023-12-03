@@ -6,7 +6,9 @@ const btn=document.getElementById("button");
 
 btn.addEventListener("click",()=>getData(name,year));
 function   getData(name,year) {
-	if(!year.value&&!name.value)
+	if(!year.value&&!name.value){
+		return;
+	}
 	if(year.value===""){
 		 text = url.innerText+"?" +"name:"+name.value
 	  url.innerText=text;
