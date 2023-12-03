@@ -3,3 +3,10 @@ form{
 	flex-direction:column;
 	gap:10px;
 }
+input{
+	width:50%
+	
+}
+button{
+width:20%
+}
